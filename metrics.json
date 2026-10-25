@@ -1,0 +1,74 @@
+{
+  "dataset_rows": 2000,
+  "dataset_columns": 11,
+  "missing_values_total": 0,
+  "target": "Price",
+  "features": [
+    "Brand",
+    "Model_Year",
+    "Engine_Size",
+    "Fuel_Type",
+    "Transmission",
+    "Mileage",
+    "Doors",
+    "Owner_Count",
+    "Horsepower"
+  ],
+  "categorical_features": [
+    "Brand",
+    "Fuel_Type",
+    "Transmission"
+  ],
+  "numeric_features": [
+    "Model_Year",
+    "Engine_Size",
+    "Mileage",
+    "Doors",
+    "Owner_Count",
+    "Horsepower"
+  ],
+  "best_model": "Gradient Boosting",
+  "best_metrics": {
+    "MAE": 1962.1308742017336,
+    "RMSE": 2430.692713884333,
+    "R2": 0.9284012664510403
+  },
+  "target_min": 18911.55,
+  "target_median": 46112.35,
+  "target_max": 72267.8,
+  "brands": [
+    "BMW",
+    "Ford",
+    "Honda",
+    "Hyundai",
+    "Tesla",
+    "Toyota"
+  ],
+  "fuel_types": [
+    "Diesel",
+    "Electric",
+    "Hybrid",
+    "Petrol"
+  ],
+  "transmissions": [
+    "Automatic",
+    "Manual"
+  ],
+  "model_year_min": 2005,
+  "model_year_max": 2023,
+  "engine_min": 1.0,
+  "engine_max": 5.0,
+  "mileage_min": 5036,
+  "mileage_max": 199904,
+  "doors_options": [
+    2,
+    3,
+    4
+  ],
+  "owners_min": 1,
+  "owners_max": 4,
+  "horsepower_min": 70,
+  "horsepower_max": 399,
+  "test_size": 0.2,
+  "random_state": 42
+}
